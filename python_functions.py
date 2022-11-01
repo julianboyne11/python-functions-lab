@@ -32,4 +32,14 @@ def occurrences(str1, substr2):
   #     count += 1
   # return count
 
-print(occurrences('fleep floop', 'p'))
+# print(occurrences('fleep floop', 'p'))
+
+#Challenge 4
+
+def product(*args):
+  product = 1
+  for arg in args:
+    product *= arg
+  return product
+
+# print(product(-1, 4))
